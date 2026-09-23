@@ -9,12 +9,12 @@ The workflow generates an educator-facing risk report that identifies students w
 
 The workflow:
 
-Imports student assessment and enrolment data.
-Applies a trained machine learning ensemble model.
-Calculates the probability of unit failure for each student.
-Classifies students into risk categories.
-Generates an Excel-based risk report for educators.
-Provides model explainability using SHAP values.
+1. Imports student assessment and enrolment data.
+2. Applies a trained machine learning ensemble model.
+3. Calculates the probability of unit failure for each student.
+4. Classifies students into risk categories.
+5. Generates an Excel-based risk report for educators.
+6. Provides model explainability using SHAP values.
 
 **Required Data**
 
