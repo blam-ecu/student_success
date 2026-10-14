@@ -56,12 +56,6 @@ def preprocess_data(df, target_column='Total Mark', binning=True):
         bins = [0, 49.5, 101]
         grade_labels = ['Fail', 'Pass']
 
-        # bins = [0, 49.5, 69.5, 101]
-        # grade_labels = ['F', 'P', 'D']
-
-        # bins = [0, 49.5, 59.5, 69.5, 79.5, 101]
-        # grade_labels = ['F', 'P', 'C', 'D', 'HD']
-
         df['Grade'] = pd.cut(df[target_column], bins=bins, labels=grade_labels, right=False, include_lowest=True)
         y_cat = df['Grade'].astype('category')
         y = y_cat.cat.codes
