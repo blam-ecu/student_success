@@ -1,7 +1,7 @@
 **Supporting Student Success Through an Interpretable Early Warning System**
 
 This repository contains the Python implementation used in the study: 
-  Lam, B., & Richardson, S. (2026). _Supporting Student Success Through an Interpretable Early Warning System in a First-Year Statistics Unit._
+  Lam, B., & Richardson, S. (2026). _Supporting Student Success Through an Interpretable Early Warning System in a First-Year Statistics Unit._ Student Success. Advance online publication. https://doi.org/10.63608/ssj.4175
 
 The workflow generates an educator-facing risk report that identifies students who may be at risk of failing a unit before the final examination period. Predictions are based on formative assessment results and enrolment characteristics, and are accompanied by interpretable risk classifications to support targeted intervention.
 
@@ -57,5 +57,4 @@ The student data used in the study are confidential and cannot be shared. Users 
 **Citation**
 
 If you use or adapt this workflow, please cite:
-
-Lam, B., & Richardson, S. (2026). _Supporting Student Success Through an Interpretable Early Warning System in a First-Year Statistics Unit._ Student Success.
+Lam, B., & Richardson, S. (2026). _Supporting Student Success Through an Interpretable Early Warning System in a First-Year Statistics Unit._ Student Success. Advance online publication. https://doi.org/10.63608/ssj.4175
